@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.header {
+  height: 68px;
+  width: 100%;
+  background-color: #fff159;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.buscar-form {
+  display: flex;
+}
+
+.contenedor-header {
+  width: 510px;
+  margin: 0 auto;
+}
+
+.buscar-text {
+  flex-grow: 1;
+}
+
+.buscar-boton {
+  padding: 12px 35px;
+  margin-left: 14px;
+}
+
+.image-product {
+  margin-top: 20px;
+  width: 128px;
+}
+
+.content {
+  max-width: 510px;
+  overflow: auto;
+
+  margin: 0 auto;
+}
+
+.content-product {
+  display: flex;
+  padding: 13px 10px;
+  border-radius: 4px;
+  border: solid 1px;
+  margin-bottom: 20px;
+}
+
+.content-price {
+}
+
+.content-datos {
+  flex-grow: 1;
+  padding: 0 13px;
+}
+
+.datos-flex {
+}
+
+.content-estado {
+  margin-top: 4px;
+  margin-bottom: 60px;
+}
